@@ -3,7 +3,11 @@ const exec = require('child_process').exec;
 
 
 /**
- * Calls 
+ * Calls cloc internally
+ * @param absolutePath {string} the path of the file or folder
+ * @param args {string[]} the arguments to pass to cloc
+ * 
+ * @see https://github.com/AlDanial/cloc
  */
 module.exports.cloc = (absolutePath, args = []) => {
     const promise = new Promise((resolve, reject) => {
