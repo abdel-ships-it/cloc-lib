@@ -6,8 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+      "cloc"
+  ],
+  "author": {
+      "email": "abdelelmedny@gmai.com",
+      "name": "Abdel El-medny"
+  },
   "license": "ISC",
   "dependencies": {
     "cloc": "^2.4.0"
